@@ -1,0 +1,28 @@
+h1 {
+  color: yellow;
+  font-size: 50px;
+}
+
+.style_one {
+  color: green;
+}
+
+.style_two {
+  color: red;
+  margin-bottom: 5em;
+  background-color: grey;
+  padding: 20px;
+}
+
+.style_two .style_one {
+  color: yellow
+  display: inline;
+}
+
+.style_two.style_one {
+  color: blue
+}
+
+.style_one, .style_one.style_two {
+  display: inline;
+}
